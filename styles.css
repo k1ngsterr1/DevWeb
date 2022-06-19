@@ -324,11 +324,8 @@ body{
     border-radius: 5px;
     outline: none;
     user-select: none;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-input[type='text']::placeholder{
     padding-left: 54px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .lupa{
@@ -339,4 +336,115 @@ input[type='text']::placeholder{
     left: 495px;
     top: 425px;
     font-size: 26px;
+}
+
+.top-list{
+    width: 21.768707482993197%;
+    height: 7.587064676616915%;
+    margin-top: 60px;
+    background: var(--beauty-blue);
+    border: none;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 69px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.top-list:hover{
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    color:var(--gray-hover);
+}
+
+.top-list:not(:hover){
+    transition: .2s;
+}
+
+.second-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: var(--second-bg-color);
+    background-image: url('/images/BG.png');
+    border: 1px solid white;
+}
+
+.topengineers{
+    display: flex;
+justify-content: center;
+    font-family: 'Khand';
+    margin-bottom: -120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 107px;
+    color: var(--white);
+    margin-top: 30px;
+}
+
+.second-content{
+    width: 76.5625%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    border: 2px solid red;
+}
+
+.cards-container{
+    width: 100%;
+    height: 43.32804232804233%;
+    border: 2px solid pink;
+}
+
+.card-1{
+    width: 20.408163265306122%;
+    height: 100%;
+    display: flex;
+
+    background: #0F2649;
+    box-shadow: 0px 8px 16px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 29px;
+}
+
+.card-1::before{
+    content: '';
+    position: absolute;
+    width: 15.5%;
+    height: 20%;
+    background: #17325A;;
+    border-radius: 27px 27px 0px 0px;
+}
+
+.card-img{
+    z-index: 1;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-top: 57px;
+}
+
+.engineer-text{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 43px;
+    position: absolute;
+    margin-right: 8.333333333333334vw;
+    margin-top: 0.5208333333333334vw;
+    color: white;
+}
+
+.card-name{
+font-family: 'Khand';
+font-style: normal;
+position: absolute;
+font-weight: 600;
+font-size: 37px;
+line-height: 57px;
+/* identical to box height */
+color: #FFFFFF;
 }
